@@ -1,0 +1,51 @@
+#stripe {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+}
+#blue {
+	width: 550px;
+	height: 323px;
+	padding: 10px;
+	background-color: navy;
+	position: relative;
+}
+.circle {
+	width: 60px;
+	height: 17px;
+	margin: 10px;
+	background: white;
+	border-radius: 50px;
+	display: inline-block;
+
+}
+.group1 {
+	margin-left: 25px;
+	vertical-align: center;
+}
+.group {
+	margin-left: 55px;
+	vertical-align: center;
+}
+.clearfix {
+	clear: both;
+}
+.second {
+	top: 100px;
+}
+.third {
+	top: 200px;
+}
+.fourth {
+	top: 300px;
+}
+.fifth {
+	top: 400px;
+}
+.sixth {
+	top: 500px;
+}
+.final {
+	top: 600px;
+}

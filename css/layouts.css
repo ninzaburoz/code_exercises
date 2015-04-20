@@ -1,0 +1,83 @@
+/**
+  *CONTENTS
+  *
+  *Global Settings
+  *
+  *Navigation
+  *Content
+  *footer
+**/
+
+/*---------------*\
+  GLOBAL SETTINGS
+\*---------------*/
+
+body {
+	margin-left: 0px;
+  margin-right: 20px;
+}
+.float-left {
+  float: left;
+}
+/*---------------*\
+    Navigation
+\*---------------*/
+
+#topnav {
+	width: 95%;
+	height: 40px;
+  margin: 0 auto;
+	background-color: gray;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+.menu-button {
+	padding: 10px;
+	margin-right: 3px;
+}
+#leftnav {
+  position: absolute;
+  width: 160px;
+  height: 400px;
+  margin-bottom: 20px;
+  background-color: gray;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.text {
+  position: inline;
+}
+
+/*---------------*\
+      Content
+\*---------------*/
+
+#main {
+  padding-top: 55px;
+  padding-left: 185px;
+  display: block;
+  padding-right: 30px;
+}
+#container {
+  background-color: #e1e1e1;
+  display: block;
+}
+.lego {
+  width: 400px;
+  float: left;
+}
+
+/*---------------*\
+      Footer
+\*---------------*/
+
+#footer {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+  background-color: gray;
+  float: bottom;
+  margin-top: 25px;
+  border-radius: 5px;
+}

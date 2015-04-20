@@ -1,3 +1,1 @@
-#Codeup examples
-
-This is my personal repository of exercises Ive completed.
+This is the README from the exercise

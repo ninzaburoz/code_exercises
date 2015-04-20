@@ -1,0 +1,48 @@
+.arrow {
+	left: 42px;
+	top: -100px;
+	position: relative;
+}
+#ribbon {
+	right: 0px;
+	top: 0px;
+	position: absolute;
+}
+#container {
+	width: 480px;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+}
+.box {
+	box-sizing: border-box;
+	width: 70px; height: 70px;
+	border: 1px solid black;
+	margin: 25px;
+	padding: 10px;
+	float: left;
+}
+#section1 {
+	background-color: red;
+}
+#section2 {
+	background-color: orange;
+}
+#section3 {
+	background-color: yellow;
+}
+#section4 {
+	background-color: green;
+	clear: left;
+}
+#section5 {
+	background-color: blue;
+}
+#section6 {
+	background-color: violet;
+}
+.content {
+	width: 480px;
+	margin: 0 auto;
+	animation-direction: alternate;
+}
