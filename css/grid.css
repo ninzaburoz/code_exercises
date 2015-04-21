@@ -1,0 +1,76 @@
+/*Table of Contents
+*
+*
+*Containers
+*Rows
+*Columns
+*/
+
+/*-------------*\
+    Containers
+\*-------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+
+}
+/*-------------*\
+      Rows
+\*-------------*/
+
+.row {
+    width:100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*-------------*\
+     Columns
+\*-------------*/
+
+.column {
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+}
+.column.one-third {
+    width: 33.33%;
+}
+.column.one-half {
+    width: 50%;
+}
+.column.one-fourth {
+	width: 25%;
+}
+.column.one-sixth {
+	width: 16.66%;
+}
+.column.one-eigth {
+	width: 12.5%;
+}
+.column.seven-eigth {
+	width: 87.5%;
+}
+/*-------------*\
+    offsets
+\*-------------*/
+
+.column.offset-one-eigth {
+	width: 12.5%;
+}
+.column.offset-one-fourth {
+	width: 25%;
+}
+.column.offset-one-sixth {
+	width: 16.66%;
+}
